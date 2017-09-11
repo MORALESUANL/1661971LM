@@ -3,7 +3,7 @@ cnt = 0
 
 def quicksort(arr):
 	global cnt
-	if len(arr) <= 1:
+	if len(arr) < 2:
 		return arr
 	p = arr.pop(0)
 	menores, mayores = [],[]
